@@ -1,6 +1,6 @@
 # SQLChat: Natural Language Queries and Insights via SQL
 
-DataDialogue is a Streamlit-based web application that allows users to upload data files, interact via a chat interface, and use natural language processing to convert text into SQL commands. The application then executes these SQL commands to query the uploaded data and provide insights, all through an intuitive chat interface.
+SQLChat is a Streamlit-based web application that allows users to upload data files, interact via a chat interface, and use natural language processing to convert text into SQL commands. The application then executes these SQL commands to query the uploaded data and provide insights, all through an intuitive chat interface.
 
 ## Features
 
