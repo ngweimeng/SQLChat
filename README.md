@@ -11,7 +11,7 @@ DataDialogue is a Streamlit-based web application that allows users to upload da
 
 ## Viewing the Application
 
-You can view SQLChat at the following URL: [DataDialogue App](XXX)
+You can view SQLChat at the following URL: [SQLChat App](https://sqlchat.streamlit.app/)
 
 ## Development Status
 
