@@ -1,0 +1,9 @@
+langchain
+streamlit
+pandas
+langchain-openai 
+langchain-community 
+langchain-experimental
+sqlalchemy
+openpyxl
+xlrd
