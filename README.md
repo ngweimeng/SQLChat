@@ -17,13 +17,7 @@ You can view SQLChat at the following URL: [SQLChat App](https://sql-chat.stream
 
 Please note: This application is in a beta testing phase and may contain errors. Use caution when deploying and sharing, and verify all outputs for critical applications. It is not recommended for production environments without further testing and validation.
 
-## Contributing
+##   Future Works
 
-Contributions to improve SQLChat are welcome. Here's how you can contribute:
-
-- Fork the repository.
-- Create a new branch (`git checkout -b improve-feature`).
-- Make the necessary changes to the files.
-- Commit your changes (`git commit -am 'Improve feature'`).
-- Push to the branch (`git push origin improve-feature`).
-- Create a Pull Request.
+- LLM Integration: We plan to integrate open-source large language models (LLM) to enhance query interpretation capabilities.
+- Database Connectivity: Future updates will include support for connecting to private proprietary databases, expanding the usability for corporate environments.
