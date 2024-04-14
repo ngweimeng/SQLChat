@@ -11,7 +11,7 @@ SQLChat is a Streamlit-based web application that allows users to upload data fi
 
 ## Viewing the Application
 
-You can view SQLChat at the following URL: [SQLChat App](https://sqlchat.streamlit.app/)
+You can view SQLChat at the following URL: [SQLChat App](https://sql-chat.streamlit.app/)
 
 ## Development Status
 
