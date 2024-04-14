@@ -19,7 +19,7 @@ Please note: This application is in a beta testing phase and may contain errors.
 
 ## Contributing
 
-Contributions to improve DataDialogue are welcome. Here's how you can contribute:
+Contributions to improve SQLChat are welcome. Here's how you can contribute:
 
 - Fork the repository.
 - Create a new branch (`git checkout -b improve-feature`).
