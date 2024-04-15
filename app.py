@@ -74,7 +74,6 @@ if uploaded_file:
     df.to_sql("test", engine, index=False, if_exists='replace')
     db = SQLDatabase(engine=engine)
 
-#openai_api_key = st.sidebar.text_input("OpenAI API Key", type="password")
 if "messages" not in st.session_state or st.sidebar.button("Clear conversation history"):
     st.session_state["messages"] = [{"role": "assistant", "content": "How can I help you?"}]
 
