@@ -92,13 +92,17 @@ if prompt := st.chat_input(placeholder="Start your conversation here..."):
         temperature=0, model="gpt-3.5-turbo-0613", openai_api_key=st.secrets["openai_api_key"], streaming=True
     )
 
-    sql_db_agent = create_sql_agent(
-    llm,
-    db=db,  
-    agent_type="openai-tools", 
-    verbose=True
-    )
-    
+    try:
+        sql_db_agent = create_sql_agent(
+        llm,
+        db=db,
+        agent_type="openai-tools",
+        verbose=True
+        )
+    except NameError as e:
+        st.error("⚠️ Please upload a file to continue.")
+        st.stop()
+
     with st.chat_message("assistant"):
         st_cb = StreamlitCallbackHandler(st.container(), expand_new_thoughts=False)
         response = sql_db_agent.run(st.session_state.messages, callbacks=[st_cb])
